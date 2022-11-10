@@ -15,6 +15,15 @@ body{
         margin: auto;
         z-index: 1;
       }
+      #img2{
+
+        width: 500px;
+        height: 500px;
+        position: absolute;  
+        top: 50%;    
+        left: 55%;  
+        z-index: 2;
+      }
       #div2{
         background-color: black; 
         max-height: 100%;  
@@ -84,10 +93,20 @@ body{
       #menu{text-decoration:none;}
       #menu:hover{text-decoration:underline;}
       #div1{
+        width: 60%;
         line-height: 50px;
         font-size: 20px;
         z-index: 2;
         position: absolute;
           top: 57%;
-          left:0%;
+          left:4%;
+      }
+      #div3{
+        width: 95%;
+        line-height: 50px;
+        font-size: 20px;
+        z-index: 2;
+        position: absolute;
+          top: 138%;
+          left:4%;
       }
