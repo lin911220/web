@@ -21,7 +21,7 @@ body{
         position: absolute;  
           top: 35%;  
           bottom: 0;  
-          left: 60%;  
+          left: 55%;  
           right: 0;
           z-index: 2;
 
@@ -73,6 +73,7 @@ body{
           z-index: 2;
       }
       #about{
+        width: 45%;
         font-size: x-large;
         position: absolute;  
           top: 50%;  
@@ -91,9 +92,11 @@ body{
           z-index: 2;
       }
       #submenu{
+        width: 45%;
         font-size: large;
         word-spacing:5rem;
         line-height: 5rem;
+        weight: 50%;
         position: absolute;
           top: 90%;
           bottom: 0;
@@ -106,7 +109,7 @@ body{
         position: absolute;
           top: 85%;
           bottom: 0;
-          left: 60%;
+          left: 55%;
           right: 0;
           z-index: 1;
       }
@@ -116,7 +119,7 @@ body{
         position: absolute;
           top: 90%;
           bottom: 0;
-          left: 60%;
+          left: 55%;
           right: 0;
           z-index: 2;
       }
