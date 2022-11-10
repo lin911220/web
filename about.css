@@ -9,34 +9,22 @@ body{
         height: auto;
         position: absolute;  
         top: 0;  
-        bottom: 0;  
+        bottom: 55%;  
         left: 0;  
         right: 0;  
         margin: auto;
         z-index: 1;
       }
       #img2{
+        width: 35%;
+        height: 45%; 
+        position: absolute;  
+          top: 35%;  
+          bottom: 0;  
+          left: 60%;  
+          right: 0;
+          z-index: 2;
 
-        width: 500px;
-        height: 500px;
-        position: absolute;  
-        top: 50%;    
-        left: 55%;  
-        z-index: 2;
-      }
-      #div2{
-        background-color: black; 
-        max-height: 100%;  
-        max-width: 100%; 
-        width: auto;
-        height: auto;
-        position: absolute;  
-        top: 0;  
-        bottom: 0;  
-        left: 0;  
-        right: 0;  
-        margin: auto;
-        z-index: 0;
       }
       #div0{
         background-color: white;
@@ -52,8 +40,22 @@ body{
         margin: auto;
         z-index: 1;
       }
+      #div2{
+        background-color: black; 
+        max-height: 100%;  
+        max-width: 100%; 
+        width: auto;
+        height: auto;
+        position: absolute;  
+        top: 0;  
+        bottom: 0;  
+        left: 0;  
+        right: 0;  
+        margin: auto;
+        z-index: 0;
+      }
       #name{
-        font-size: 35px;
+        font-size: xx-large;
         position: absolute;  
           top: 27%;  
           bottom: 0;  
@@ -62,7 +64,7 @@ body{
           z-index: 2;
       }
       #star{
-        font-size: 17px;
+        font-size: large;
         position: absolute;  
           top: 40%;  
           bottom: 0;  
@@ -71,42 +73,75 @@ body{
           z-index: 2;
       }
       #about{
-        font-size: 26px;
+        font-size: x-large;
         position: absolute;  
-          top: 67%;  
+          top: 50%;  
           bottom: 0;  
           left: 4.2%;  
           right: 0;
           z-index: 2;
       }
-      #about{text-decoration:none;}
-      #about:hover{text-decoration:underline;}
       #menu{
-        font-size: 26px;
+        font-size: x-large;
         position: absolute;  
-          top: 80%;  
+          top: 85%;  
           bottom: 0;  
           left: 4.2%;  
           right: 0;
           z-index: 2;
       }
-      #menu{text-decoration:none;}
-      #menu:hover{text-decoration:underline;}
+      #submenu{
+        font-size: large;
+        word-spacing:5rem;
+        line-height: 5rem;
+        position: absolute;
+          top: 90%;
+          bottom: 0;
+          left: 5%;
+          right: 0;
+          z-index: 2;
+      }
+      #comment_title{
+        font-size: x-large;
+        position: absolute;
+          top: 85%;
+          bottom: 0;
+          left: 60%;
+          right: 0;
+          z-index: 1;
+      }
+      #comment{
+        font-size: large;
+        line-height: 3rem;
+        position: absolute;
+          top: 90%;
+          bottom: 0;
+          left: 60%;
+          right: 0;
+          z-index: 2;
+      }
       #div1{
-        width: 60%;
         line-height: 50px;
-        font-size: 20px;
+        font-size: large;
         z-index: 2;
         position: absolute;
           top: 57%;
-          left:4%;
+          left:0%;
       }
-      #div3{
-        width: 95%;
-        line-height: 50px;
-        font-size: 20px;
-        z-index: 2;
-        position: absolute;
-          top: 138%;
-          left:4%;
+      a:link{
+        text-decoration:none;
+        background-color:white;
+      }
+      a:visited{
+        color:blueviolet;
+        background-color:white;
+      }
+      a:hover{
+        text-decoration:underline;
+        background-color:gainsboro;
+      }
+      a:active{
+        text-decoration:none;
+        background-color:gainsboro;
+        color:red;
       }
