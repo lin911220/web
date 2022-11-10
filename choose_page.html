@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script src="jquery-3.6.1.js"></script>
+    <meta charset="utf-8">
+    <title>選擇區域</title>
+    <script>
+     $(document).ready(function() {
+      $('body').css('display', 'none');
+      $('body').fadeIn(1500); //一開始淡入
+     });
+    </script>
+  </head>
+  <style type="text/css">
+    body{
+      background-color: black;
+    }
+    #img{
+
+      max-height: 100%;  
+      max-width: 100%; 
+      width: auto;
+      height: auto;
+      position: absolute;  
+      top: 0;  
+      bottom: 0;  
+      left: 0;  
+      right: 0;  
+      margin: auto;
+      z-index: 0;
+    }
+    #div{
+      /*半透明圖層*/
+      max-width: 100%; 
+      width: auto;
+      /*width: 1275px;*/
+      height: 450px;
+      background-color: rgba(255, 255, 255, .8);
+      z-index: 0;
+      position: absolute;  
+        top: 15%;  
+        bottom: 0;  
+        left: 0;  
+        right: 0;
+    }
+    #btn{
+        color: black;
+        font-size: 24px;
+        text-align:center;
+        line-height: 45px;
+        width: 250px;
+        height: 45px;
+        background-color: rgb(6,193,103);
+        position: absolute;
+          top: 50%;
+          left:40%;
+        z-index: 1;
+      }
+  </style>
+  <body>
+    <img src="food.jpg" id="img">
+    <div id="div"></div>
+    <a href="lottery_mode.html"><div id="btn"><b>測試用</b></div></a>
+    
+  </body>
+</html>
