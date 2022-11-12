@@ -2,14 +2,9 @@
 <html>
   <head>
     <script src="jquery-3.6.1.js"></script>
+    <script src="show.js"></script>
     <meta charset="utf-8">
     <title>選擇區域</title>
-    <script>
-     $(document).ready(function() {
-      $('body').css('display', 'none');
-      $('body').fadeIn(1500); //一開始淡入
-     });
-    </script>
   </head>
   <style type="text/css">
     body{
@@ -33,7 +28,6 @@
       /*半透明圖層*/
       max-width: 100%; 
       width: auto;
-      /*width: 1275px;*/
       height: 450px;
       background-color: rgba(255, 255, 255, .8);
       z-index: 0;
@@ -43,24 +37,193 @@
         left: 0;  
         right: 0;
     }
-    #btn{
+    #div2{
+      z-index: 2;
+      font-size: 35px;
+      position: absolute;  
+        top: 18%;   
+        left: 23%;
+    }
+    #div3{
+      z-index: 2;
+      font-size: 35px;
+      position: absolute;  
+        top: 18%;   
+        left: 68%;
+    }
+    
+    div{
         color: black;
         font-size: 24px;
         text-align:center;
         line-height: 45px;
-        width: 250px;
+        width: 100px;
         height: 45px;
         background-color: rgb(6,193,103);
-        position: absolute;
+        /*position: absolute;
           top: 50%;
-          left:40%;
+          left:40%;*/
         z-index: 1;
       }
+    #btn1{
+      position: absolute;
+          top: 30%;
+          left:8%; 
+    }
+    #btn2{
+      position: absolute;
+          top: 30%;
+          left:23%; 
+    }
+    #btn3{
+      position: absolute;
+          top: 30%;
+          left:38%; 
+    }
+    #btn4{
+      position: absolute;
+          top: 30%;
+          left:53%; 
+    }
+    #btn5{
+      position: absolute;
+          top: 30%;
+          left:68%; 
+    }
+    #btn6{
+      position: absolute;
+          top: 30%;
+          left:83%; 
+    }
+
+/*第二行*/
+    #btn7{
+      position: absolute;
+          top: 45%;
+          left:8%; 
+    }
+    #btn8{
+      position: absolute;
+          top: 45%;
+          left:23%; 
+    }
+    #btn9{
+      position: absolute;
+          top: 45%;
+          left:38%; 
+    }
+    #btn10{
+      position: absolute;
+          top: 45%;
+          left:53%; 
+    }
+    #btn11{
+      position: absolute;
+          top: 45%;
+          left:68%; 
+    }
+    #btn12{
+      position: absolute;
+          top: 45%;
+          left:83%; 
+    }
+
+/*第三行*/
+    #btn13{
+      position: absolute;
+          top: 60%;
+          left:8%; 
+    }
+    #btn14{
+      position: absolute;
+          top: 60%;
+          left:23%; 
+    }
+    #btn15{
+      position: absolute;
+          top: 60%;
+          left:38%; 
+    }
+    #btn16{
+      position: absolute;
+          top: 60%;
+          left:53%; 
+    }
+    #btn17{
+      position: absolute;
+          top: 60%;
+          left:68%; 
+    }
+    #btn18{
+      position: absolute;
+          top: 60%;
+          left:83%; 
+    }
+
+
+/*第四行*/
+    #btn19{
+      position: absolute;
+          top: 75%;
+          left:8%; 
+    }
+    #btn20{
+      position: absolute;
+          top: 75%;
+          left:23%; 
+    }
+    #btn21{
+      position: absolute;
+          top: 75%;
+          left:38%; 
+    }
+    #btn22{
+      position: absolute;
+          top: 75%;
+          left:53%; 
+    }
+    #btn23{
+      position: absolute;
+          top: 75%;
+          left:68%; 
+    }
+    #btn24{
+      position: absolute;
+          top: 75%;
+          left:83%; 
+    }
+
   </style>
   <body>
     <img src="food.jpg" id="img">
-    <div id="div"></div>
-    <a href="lottery_mode.html"><div id="btn"><b>板橋區</b></div></a>
+    <span id="div"></span>
+    <span id="div2"><b>新北市</b></span>
+    <span id="div3"><b>台北市</b></span>
+
+    <a href="lottery_mode.html"><div id="btn1"><b>土城區</b></div></a>
+    <a href="lottery_mode.html"><div id="btn2"><b>板橋區</b></div></a>
+    <a href="lottery_mode.html"><div id="btn3"><b>中和區</b></div></a>
+    <a href="lottery_mode.html"><div id="btn4"><b>北投區</b></div></a>
+    <a href="lottery_mode.html"><div id="btn5"><b>士林區</b></div></a>
+    <a href="lottery_mode.html"><div id="btn6"><b>內湖區</b></div></a>
+    <a href="lottery_mode.html"><div id="btn7"><b>永和區</b></div></a>
+    <a href="lottery_mode.html"><div id="btn8"><b>新莊區</b></div></a>
+    <a href="lottery_mode.html"><div id="btn9"><b>三重區</b></div></a>
+    <a href="lottery_mode.html"><div id="btn10"><b>中山區</b></div></a>
+    <a href="lottery_mode.html"><div id="btn11"><b>大同區</b></div></a>
+    <a href="lottery_mode.html"><div id="btn12"><b>松山區</b></div></a>
+    <a href="lottery_mode.html"><div id="btn13"><b>新店區</b></div></a>
+    <a href="lottery_mode.html"><div id="btn14"><b>三峽區</b></div></a>
+    <a href="lottery_mode.html"><div id="btn15"><b>烏來區</b></div></a>
+    <a href="lottery_mode.html"><div id="btn16"><b>信義區</b></div></a>
+    <a href="lottery_mode.html"><div id="btn17"><b>南港區</b></div></a>
+    <a href="lottery_mode.html"><div id="btn18"><b>大安區</b></div></a>
+    <a href="lottery_mode.html"><div id="btn19"><b>深坑區</b></div></a>
+    <a href="lottery_mode.html"><div id="btn20"><b>平溪區</b></div></a>
+    <a href="lottery_mode.html"><div id="btn21"><b>淡水區</b></div></a>
+    <a href="lottery_mode.html"><div id="btn22"><b>中正區</b></div></a>
+    <a href="lottery_mode.html"><div id="btn23"><b>萬華區</b></div></a>
+    <a href="lottery_mode.html"><div id="btn24"><b>文山區</b></div></a>
     
   </body>
 </html>
